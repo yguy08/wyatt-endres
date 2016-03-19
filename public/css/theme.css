@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -15,4 +15,10 @@ body {
 
 .theme-showcase .navbar .container {
   width: auto;
+}
+
+.jumbotron{
+  background-color: #3366cc;
+  color: #f8f8f8;
+  text-shadow: 2px 2px #000000;
 }
