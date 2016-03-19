@@ -10,9 +10,21 @@
       <link href="/css/theme.css" rel="stylesheet">
 
 </head>
+
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script>
+  var socket = io();
+  $('#chatForm').submit(function(){
+    socket.emit('chat message', $('#m').val());
+    $('#m').val('');
+    return false;
+  });
+</script>
+
    <body role="document">
 
-         
+
 
          <div class="container theme-showcase" role="main">
 
@@ -21,6 +33,11 @@
              <h1>Wyatt Endres<small> 💰</small></h1>
              <p></p>
            </div>
+
+           <ul id="messages"></ul>
+           <form action="">
+             <input id="m" autocomplete="off" /><button>Send</button>
+           </form>
 
 
            <div class="page-header">
@@ -577,7 +594,6 @@
 
 
       <!-- bootstrap -->
-      <script src="/bower_components/jquery/dist/jquery.js"></script>
       <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
   </body>
