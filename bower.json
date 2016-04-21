@@ -2,7 +2,7 @@
   "name": "wyatt-endres",
   "homepage": "https://github.com/yguy08/wyatt-endres",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.2"
   }
 }

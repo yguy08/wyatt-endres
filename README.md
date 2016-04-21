@@ -1,12 +1,3 @@
 # wyatt-endres
-:moneybag: wyattendres.com
 
-#TODO
-#Create site - contact info, sample work, social media, real-time chat. Deploy to Heroku...
-Touch up clymon - keep as github page. keep picture, add messaging feature...
-#Deploy copy paste to heroku - looks good. Finish mongoLabs setup.
-Deploy comet money to heroku - finish tutorials. link domain or make stock ticker...
-Create Instigate Curiosity website
-Link completed sites
-Add to linkedIn...
-
+💰
