@@ -2,10 +2,10 @@ var app = angular.module('app',[]);
 
 app.controller('appController', function ($scope, $http) {
 
-console.log("Hello world from controller");
+console.log("app-ctrl 💰");
 
 $http.get('/public').success(function(response){
-console.log("I got the data I requested");
+console.log("Sending...💰");
 });
 
 });

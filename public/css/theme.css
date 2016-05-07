@@ -1,18 +1,52 @@
-body {
-  padding-top: 70px;
-  padding-bottom: 30px;
+body{
+  background-color: #fff;
 }
-
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.theme-showcase > p > .btn {
-  margin: 5px 0;
-}
-
-.theme-showcase .navbar .container {
+.erase{
+  padding:0px;
+  margin: 0px;
   width: auto;
+}
+
+.erase h1{
+  margin:0px;
+  padding:0px;
+}
+#we{
+  background-color:#6666cc;
+  color:#fff;
+  text-align:center;
+  border-top: 2px solid black;
+  }
+#we h1{
+  font-size:135px;
+}
+#nav{
+  text-align: center;
+  width: auto;
+  border-top:2px solid black;
+}
+#emoji{
+  margin:14px;
+  font-size:46px;
+}
+#emoji:hover{
+  cursor: pointer;
+}
+#work{
+ text-align: center;
+ border-top: 2px solid black;
+}
+#work-img {
+  width:90px;
+  height:90px;
+  border: none;
+  padding: 0px;
+  border-radius: 0px;
+  margin: 2px;
+  border: 2px solid black;
+}
+#stocks{
+  width:auto;
+  border-top:2px solid #fff;
+  background-color:black;
 }
